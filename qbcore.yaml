@@ -134,11 +134,6 @@ tasks:
     dest: ./resources/[qb]/qb-adminmenu
     ref: main
     src: https://github.com/qbcore-framework/qb-adminmenu
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-multicharacter
-    ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
     
   - action: download_github
     dest: ./resources/[qb]/qb-target
@@ -277,11 +272,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-storerobbery
 
   - action: download_github
-    dest: ./resources/[qb]/qb-spawn
-    ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
-
-  - action: download_github
     dest: ./resources/[qb]/qb-skillbar
     ref: main
     src: https://github.com/qbcore-framework/qb-skillbar
@@ -413,6 +403,16 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-multicharacter
+    ref: main
+    src: https://github.com/VenrayRoleplay/qb-multicharacter
+    
+  - action: download_github
+    dest: ./resources/[qb]/qb-spawn
+    ref: main
+    src: https://github.com/VenrayRoleplay/qb-spawn
+    
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
