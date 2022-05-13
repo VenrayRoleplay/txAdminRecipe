@@ -207,11 +207,6 @@ tasks:
     seconds: 10
 
   - action: download_github
-    dest: ./resources/[qb]/qb-radialmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-crypto
     ref: main
     src: https://github.com/qbcore-framework/qb-crypto
@@ -403,6 +398,11 @@ tasks:
   - action: waste_time # prevent github throttling
     seconds: 10
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-radialmenu
+    ref: main
+    src: https://github.com/VenrayRoleplay/qb-radialmenu
+    
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
